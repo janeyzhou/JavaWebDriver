@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17844" started-at="2017-07-21T02:52:41Z" finished-at="2017-07-21T02:52:59Z">
+    <groups>
+    </groups>
+    <test name="Firefox" duration-ms="9592" started-at="2017-07-21T02:52:41Z" finished-at="2017-07-21T02:52:51Z">
+      <class name="TestNGFrameWork.MultiBrowserParallel">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:TestNGFrameWork.MultiBrowserParallel@6a4f787b]" name="setBrowser" is-config="true" duration-ms="4597" started-at="2017-07-21T10:52:41Z" finished-at="2017-07-21T10:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="loginGitHub()[pri:0, instance:TestNGFrameWork.MultiBrowserParallel@6a4f787b]" name="loginGitHub" duration-ms="4975" started-at="2017-07-21T10:52:46Z" finished-at="2017-07-21T10:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGitHub -->
+      </class> <!-- TestNGFrameWork.MultiBrowserParallel -->
+    </test> <!-- Firefox -->
+    <test name="Chrome" duration-ms="8221" started-at="2017-07-21T02:52:51Z" finished-at="2017-07-21T02:52:59Z">
+      <class name="TestNGFrameWork.MultiBrowserParallel">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:TestNGFrameWork.MultiBrowserParallel@3c0ecd4b]" name="setBrowser" is-config="true" duration-ms="2006" started-at="2017-07-21T10:52:51Z" finished-at="2017-07-21T10:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="loginGitHub()[pri:0, instance:TestNGFrameWork.MultiBrowserParallel@3c0ecd4b]" name="loginGitHub" duration-ms="6212" started-at="2017-07-21T10:52:53Z" finished-at="2017-07-21T10:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGitHub -->
+      </class> <!-- TestNGFrameWork.MultiBrowserParallel -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

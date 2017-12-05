@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- 	<test name="AnnotationTag">
+		<groups>
+			<run>
+				<exclude name="book" />
+				<exclude name="car" />
+				<exclude name="depends" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGFrameWork.TestNGAnnotation" />
+		</classes>
+	</test> Test
+
+
+	<test name="AnnotationGroup">
+		<groups>
+			<define name="TestGroups">
+				<include name="car" />
+				<include name="book" />
+			</define>
+			<run>
+				<include name="TestGroups" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGFrameWork.TestNGAnnotation" />
+		</classes>
+	</test> Test
+
+
+	<test name="AnnotationSequence">
+		<groups>
+			<run>
+				<include name="Sequence" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGFrameWork.TestNGAnnotation" />
+		</classes>
+	</test> Test
+
+
+	<test name="AnnotationDepends">
+		<groups>
+			<run>
+				<include name="depends" />
+				<include name="book" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGFrameWork.TestNGAnnotation" />
+		</classes>
+	</test> Test
+
+
+	<test name="Parameter">
+		<parameter name="sUsername" value="janeyzhou" />
+		<parameter name="sPassword" value="zj19880311" />
+		<classes>
+			<class name="TestNGFrameWork.TestNGParameter" />
+		</classes>
+	</test> Test
+ -->
+
+	<test name="Firefox">
+		<parameter name="browser" value="Firefox" />
+
+		<classes>
+			<class name="TestNGFrameWork.MultiBrowserParallel" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="TestNGFrameWork.MultiBrowserParallel" />
+		</classes>
+	</test> 
+</suite> <!-- Suite -->

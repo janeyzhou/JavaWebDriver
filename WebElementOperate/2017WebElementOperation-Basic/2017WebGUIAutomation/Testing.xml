@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Locator">
+	<test name="TestRunner-HomePage">
+		<groups>
+			<run>
+				<include name="PricePage"/>
+				<exclude name = "HomePage"/>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="LocatorFindElements.TestRunner"></class>
+		</classes>
+	</test>
+	
+</suite> 

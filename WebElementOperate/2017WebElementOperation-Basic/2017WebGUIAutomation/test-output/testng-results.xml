@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="13" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Locator" duration-ms="4178" started-at="2017-06-07T05:58:51Z" finished-at="2017-06-07T05:58:55Z">
+    <groups>
+      <group name="PricePage">
+        <method signature="TestRunner.openPricePage()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="openPricePage" class="LocatorFindElements.TestRunner"/>
+        <method signature="TestRunner.testFindByXpathContains()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathContains" class="LocatorFindElements.TestRunner"/>
+        <method signature="TestRunner.testFindByXpathList()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathList" class="LocatorFindElements.TestRunner"/>
+        <method signature="TestRunner.testFindByXpathPosition()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathPosition" class="LocatorFindElements.TestRunner"/>
+        <method signature="TestRunner.testFindByXpathPredications()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathPredications" class="LocatorFindElements.TestRunner"/>
+        <method signature="TestRunner.testFindByXpathText()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathText" class="LocatorFindElements.TestRunner"/>
+      </group> <!-- PricePage -->
+    </groups>
+    <test name="TestRunner-HomePage" duration-ms="4178" started-at="2017-06-07T05:58:51Z" finished-at="2017-06-07T05:58:55Z">
+      <class name="LocatorFindElements.TestRunner">
+        <test-method status="PASS" signature="openPricePage()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="openPricePage" duration-ms="3917" started-at="2017-06-07T13:58:51Z" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPricePage -->
+        <test-method status="PASS" signature="testFindByXpathContains()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathContains" duration-ms="103" started-at="2017-06-07T13:58:55Z" description="ByXpathContains" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByXpathContains -->
+        <test-method status="PASS" signature="testFindByXpathList()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathList" duration-ms="65" started-at="2017-06-07T13:58:55Z" description="ByXpathList" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByXpathList -->
+        <test-method status="PASS" signature="testFindByXpathPosition()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathPosition" duration-ms="22" started-at="2017-06-07T13:58:55Z" description="ByXpathPosition" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByXpathPosition -->
+        <test-method status="PASS" signature="testFindByXpathPredications()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathPredications" duration-ms="21" started-at="2017-06-07T13:58:55Z" description="ByXpathPredications" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByXpathPredications -->
+        <test-method status="PASS" signature="testFindByXpathText()[pri:0, instance:LocatorFindElements.TestRunner@53fe15ff]" name="testFindByXpathText" duration-ms="21" started-at="2017-06-07T13:58:55Z" description="ByXpathText" finished-at="2017-06-07T13:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByXpathText -->
+      </class> <!-- LocatorFindElements.TestRunner -->
+    </test> <!-- TestRunner-HomePage -->
+  </suite> <!-- Locator -->
+</testng-results>

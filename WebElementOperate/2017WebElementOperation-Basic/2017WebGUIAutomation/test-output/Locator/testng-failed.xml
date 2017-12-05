@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Locator]">
+  <test name="TestRunner-HomePage(failed)">
+    <groups>
+      <run>
+        <include name="PricePage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="LocatorFindElements.TestRunner">
+        <methods>
+          <include name="testFindByXpathPosition"/>
+        </methods>
+      </class> <!-- LocatorFindElements.TestRunner -->
+    </classes>
+  </test> <!-- TestRunner-HomePage(failed) -->
+</suite> <!-- Failed suite [Locator] -->
